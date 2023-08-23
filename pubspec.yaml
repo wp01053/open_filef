@@ -1,6 +1,7 @@
 name: open_filef
 description: A plug-in that can call native APP to open files with string result in flutter, support iOS(UTI) / android(intent) / PC(ffi) / web(dart:html)
-version: 1.0.0
+version: 1.0.3
+homepage: https://github.com/wp01053/open_filef
 
 dependencies:
   flutter:
@@ -12,7 +13,7 @@ dev_dependencies:
 
 environment:
   sdk: '>=2.16.0 <3.0.0'
-
+  flutter: ">=1.10.0"
 
 # The following section is specific to Flutter.
 flutter:

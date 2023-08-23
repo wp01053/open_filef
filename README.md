@@ -1,5 +1,5 @@
 # open_filef
-[![pub package](https://img.shields.io/pub/v/open_filex.svg)](https://pub.dev/packages/open_filex)
+[![pub package](https://img.shields.io/pub/v/open_filef.svg)](https://pub.dev/packages/open_filef)
 
 A plug-in that can call native APP to open files with string result in flutter, support iOS(DocumentInteraction) / android(intent) / PC(ffi) / web(dart:html)
 
@@ -25,9 +25,9 @@ dependencies:
 
 ## Example
 ```dart
-import 'package:open_filex/open_filef.dart';
+import 'package:open_filef/open_filef.dart';
 
-OpenFilex.open("/sdcard/example.txt");
+OpenFilef.open("/sdcard/example.txt");
 ```
 
 ## Support
